@@ -1,0 +1,129 @@
+dateModified: 1696161114
+elementSources:
+  craft\elements\Entry:
+    -
+      defaultSort:
+        - postDate
+        - desc
+      disabled: false
+      key: '*'
+      tableAttributes:
+        - section
+        - postDate
+        - expiryDate
+        - link
+      type: native
+    -
+      heading: Channels
+      type: heading
+    -
+      defaultSort:
+        - postDate
+        - desc
+      disabled: false
+      key: 'section:ae7bbe47-28b1-4557-ac73-cba9a8e34bb7' # Drinks
+      tableAttributes:
+        - postDate
+        - expiryDate
+        - link
+        - 'field:092b894d-cbd3-4c3e-84ee-b7e9ca8ecf31' # Drink Image
+        - author
+      type: native
+    -
+      key: 'section:07d5f631-aaed-46ff-af12-c939e4b7766a' # News
+      type: native
+    -
+      heading: Singles
+      type: heading
+    -
+      defaultSort:
+        - title
+        - asc
+      disabled: false
+      key: singles
+      tableAttributes:
+        - link
+      type: native
+    -
+      heading: Structures
+      type: heading
+    -
+      defaultSort:
+        - structure
+        - asc
+      disabled: false
+      key: 'section:8f98af24-6aee-44bc-98c7-28434d3c46d8' # About testCraft Coffee
+      tableAttributes:
+        - postDate
+        - expiryDate
+        - author
+        - link
+      type: native
+email:
+  fromEmail: senche.dev@gmail.com
+  fromName: testCraft
+  transportType: craft\mail\transportadapters\Sendmail
+fs:
+  drinks:
+    hasUrls: true
+    name: Drinks
+    settings:
+      path: '@webroot/images/uploads/drinks'
+    type: craft\fs\Local
+    url: '@web/images/uploads/drinks'
+meta:
+  __names__:
+    01f6010f-1f79-494e-b5d1-e3fba9d2afe0: Homepage # Homepage
+    6a26e41b-475c-4e1c-9150-857467f83dbf: 'Drink Name' # Drink Name
+    07d5f631-aaed-46ff-af12-c939e4b7766a: News # News
+    8f98af24-6aee-44bc-98c7-28434d3c46d8: 'About testCraft Coffee' # About testCraft Coffee
+    9d1ddd77-7c5b-4040-829f-ac15d24c0ebc: Drinks # Drinks
+    30f93387-7e73-4d93-8010-d636c9db0b38: Default # Default
+    092b894d-cbd3-4c3e-84ee-b7e9ca8ecf31: 'Drink Image' # Drink Image
+    364ad546-9e21-465b-a339-3803c7d25e5c: Common # Common
+    738ad5d8-5c81-4e1f-9ff9-03a1cca87e1f: Drinks # Drinks
+    04175dd2-255d-4455-aa00-ff557ed530aa: Excerpt # Excerpt
+    04332f78-79d5-4617-a33a-fb36de889557: testCraft # testCraft
+    9896fa03-c44b-42f0-a504-3f5a4dc2cb62: 'Page Copy' # Page Copy
+    82968cf1-a224-42f1-aec0-bd3c4899d9c4: Homepage # Homepage
+    aa247e82-0ccd-46e0-bcb8-cb1a04133914: Introdcution # Introdcution
+    ab19a003-5255-4404-89b7-5011f347ac13: News # News
+    ae7bbe47-28b1-4557-ac73-cba9a8e34bb7: Drinks # Drinks
+    b842a9a8-8a06-4cac-b2cf-ca9e70537e37: Drinks # Drinks
+    cae9ff85-31c9-4c58-87e6-a62c3a58f9dd: 'News Body' # News Body
+    cfdea911-5766-47af-99c3-01846c5192dc: '840x200 Thumb' # 840x200 Thumb
+    dc6e9084-f202-4753-85f6-31662e903986: Default # Default
+    e78cc242-5295-4b17-84e1-67c6da9179e7: testCraft # testCraft
+plugins:
+  contact-form:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+    settings:
+      allowAttachments: '1'
+      allowedMessageFields: null
+      prependSender: 'On behalf of'
+      prependSubject: 'New message from testCraft'
+      successFlashMessage: 'Your message has been sent.'
+      toEmail: senche.dev@gmail.com
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
+  seomatic:
+    edition: standard
+    enabled: true
+    licenseKey: CV8BRUBG9JYA4Z54QYFBZFN2
+    schemaVersion: 3.0.12
+system:
+  edition: pro
+  live: true
+  name: testCraft
+  schemaVersion: 4.5.3.0
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true

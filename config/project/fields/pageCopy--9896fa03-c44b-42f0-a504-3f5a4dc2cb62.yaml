@@ -1,0 +1,27 @@
+columnSuffix: qcunmzqt
+contentColumnType: text
+fieldGroup: 738ad5d8-5c81-4e1f-9ff9-03a1cca87e1f # Drinks
+handle: pageCopy
+instructions: null
+name: 'Page Copy'
+searchable: false
+settings:
+  availableTransforms: ''
+  availableVolumes: ''
+  columnType: text
+  configSelectionMode: choose
+  defaultTransform: ''
+  manualConfig: ''
+  purifierConfig: null
+  purifyHtml: true
+  redactorConfig: null
+  removeEmptyTags: false
+  removeInlineStyles: false
+  removeNbsp: false
+  showHtmlButtonForNonAdmins: false
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+  uiMode: enlarged
+translationKeyFormat: null
+translationMethod: none
+type: craft\redactor\Field

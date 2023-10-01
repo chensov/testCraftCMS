@@ -1,0 +1,19 @@
+columnSuffix: pqqkczpf
+contentColumnType: text
+fieldGroup: 364ad546-9e21-465b-a339-3803c7d25e5c # Common
+handle: newsExcerpt
+instructions: null
+name: Excerpt
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

@@ -1,0 +1,19 @@
+columnSuffix: ziyphomg
+contentColumnType: text
+fieldGroup: 738ad5d8-5c81-4e1f-9ff9-03a1cca87e1f # Drinks
+handle: introdcution
+instructions: 'Short Sentance on top of drink page. '
+name: Introdcution
+searchable: true
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText
