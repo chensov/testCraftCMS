@@ -1,0 +1,12 @@
+{
+    "overrides": [
+      {
+        "files": "*.twig",
+        "options": {
+          "parser": "twig"
+          // Other Twig-specific options go here
+        }
+      }
+    ]
+  }
+  

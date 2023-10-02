@@ -20,7 +20,7 @@ siteSettings:
     enabledByDefault: true
     hasUrls: true
     template: about/_entry
-    uriFormat: 'about/{slug}'
+    uriFormat: '{parent.uri}/{slug}'
 structure:
   maxLevels: null
   uid: ffacea9f-93f4-42fa-b036-63c758ad005c

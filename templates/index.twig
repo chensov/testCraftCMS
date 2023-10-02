@@ -1,102 +1,54 @@
-<!doctype html>
-<html lang="en-US">
-  <head>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta charset="utf-8" />
-    <title>Welcome to Craft CMS</title>
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover"
-    />
-    
-    <link rel="stylesheet" href="style.css" />
-    <meta name="referrer" content="origin-when-cross-origin" />
-  </head>
-  <body class="ltr">
-  
-    <div id="container">
-      <div id="modal">
-        <div id="main">
-          <div class="content">
-            <h1>Welcome</h1>
-            <p>Thanks for installing Craft CMS!</p>
-            <p>
-              You’re looking at the <code>index.twig</code> template file
-              located in your <code>templates/</code> folder. Once you’re ready
-              to start building out your site’s front end, you can replace this
-              with something custom.
-            </p>
-            <p>
-              If you’re new to Craft CMS, take some time to check out the
-              resources on the right when you get a chance&mdash;especially
-              <a href="https://craftcms.com/discord" target="_blank">Discord</a>
-              and
-              <a href="http://craftcms.stackexchange.com/" target="_blank"
-                >Stack Exchange</a
-              >. The Craft community is full of smart, friendly, and helpful
-              people!
-            </p>
-            <p>
-              <span class="go"
-                ><a href="{{ cpUrl('') }}">Go to your control panel</a></span
-              >
-            </p>
-          </div>
-        </div>
-        <div id="aside">
-          <div class="content">
-            <h1>Popular Resources</h1>
-            <ul>
-              <li>
-                <a
-                  href="https://craftcms.com/docs/getting-started-tutorial/"
-                  target="_blank"
-                  >Tutorial</a
-                ><br /><small>Learn the basics.</small>
-              </li>
-              <li>
-                <a href="https://craftcms.com/docs/4.x/" target="_blank"
-                  >Documentation</a
-                ><br /><small>Read the official docs.</small>
-              </li>
-              <li>
-                <a href="https://craftcms.com/guides" target="_blank"
-                  >Knowledge Base</a
-                ><br /><small>Find answers to common problems.</small>
-              </li>
-              <li>
-                <a href="https://twitter.com/hashtag/craftcms" target="_blank"
-                  >#craftcms</a
-                ><br /><small>See the latest tweets about Craft.</small>
-              </li>
-              <li>
-                <a href="https://craftcms.com/discord" target="_blank"
-                  >Discord</a
-                ><br /><small>Meet the community.</small>
-              </li>
-              <li>
-                <a href="http://craftcms.stackexchange.com/" target="_blank"
-                  >Stack Exchange</a
-                ><br /><small>Get help and help others.</small>
-              </li>
-              <li>
-                <a href="https://craftquest.io/" target="_blank">CraftQuest</a
-                ><br /><small>Watch unlimited video lessons and courses.</small>
-              </li>
-              <li>
-                <a href="http://craftlinklist.com/" target="_blank"
-                  >Craft Link List</a
-                ><br /><small>Stay in-the-know.</small>
-              </li>
-              <li>
-                <a href="https://nystudio107.com/blog" target="_blank"
-                  >nystudio107 Blog</a
-                ><br /><small>Learn Craft and modern web development.</small>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
+{% extends "_layouts/main" %}
+{% block main %}
+
+<div class="full-bleed-header" style="background-size: 100%; height: 300px; background-image:url(/images/coffee-shop.jpg)">
+    <!-- Photo by Nick Hillier on Unsplash -->
+    <div class="page-title text-center">
+        <h2 class="logo"><span class="scripty">Crafty</span> Coffee</h2>
+        <p class="tagline reverse">If we wrote it down, you can make it at home.</p>
+        <p><a class="button radius" href="drinks/index.html">See Our Drinks</a> <a class="button radius" href="recipes/index.html">Make Our Drinks</a>
+
     </div>
-  </body>
-</html>
+</div>
+<br>
+<div class="row">
+    <div class="large-6 small-12 columns">
+       <h3>Favorite Drinks</h3>
+        <div class="large-12 small-12 columns">
+            <a href="./drinks/drink-detail.html">
+            <div class="row hp-brew-item" style="background-image:url(/images/drinks/espresso-shot.jpg);">
+                <!-- Photo by Nathan Dumlao on Unsplash -->
+                <p class="reverse">Perfect Espresso</p>
+            </div>
+            </a>
+            <br>
+            <a href="">
+            <div class="row hp-brew-item" style="background-image:url(/images/drinks/chemex.jpg);">
+            <p class="reverse">Perfect Pour-Over</p>
+            </div>
+            </a>
+            <br>
+            <a href="">
+            <div class="row hp-brew-item" style="background-image:url(/images/drinks/iced-coffee.jpg);">
+            <p class="reverse">On the Rocks</p>
+            </div>
+            </a>
+        </div>
+    </div>
+    <div class="large-6 small-12 columns">
+        <h3>Latest Coffee News</h3>
+        <ul class="news-listing">
+            <li><a href="news/news-detail.html">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. &raquo;</a></li>
+            <li><a href="">Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. &raquo;</a></li>
+            <li><a href="">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident. &raquo;</a></li>
+            <li><a href="">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. &raquo;</a></li>
+            <li><a href="">Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. &raquo;</a></li>
+            <li><a href="">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. &raquo;</a></li>
+            <li><a href="">Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. &raquo;</a></li>
+            <li><a href="">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident. &raquo;</a></li>
+        </ul>
+    </div>
+</div>
+
+{% endblock %} 

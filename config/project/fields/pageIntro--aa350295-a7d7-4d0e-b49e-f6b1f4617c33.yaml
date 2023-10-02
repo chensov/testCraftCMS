@@ -1,0 +1,19 @@
+columnSuffix: cuimqscs
+contentColumnType: text
+fieldGroup: b9bbb094-e422-490c-8a1a-1cb472df67d0 # About
+handle: pageIntro
+instructions: null
+name: 'Page Intro'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

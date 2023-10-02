@@ -1,4 +1,4 @@
-dateModified: 1696161114
+dateModified: 1696165377
 elementSources:
   craft\elements\Entry:
     -
@@ -78,17 +78,20 @@ meta:
     07d5f631-aaed-46ff-af12-c939e4b7766a: News # News
     8f98af24-6aee-44bc-98c7-28434d3c46d8: 'About testCraft Coffee' # About testCraft Coffee
     9d1ddd77-7c5b-4040-829f-ac15d24c0ebc: Drinks # Drinks
-    30f93387-7e73-4d93-8010-d636c9db0b38: Default # Default
+    30f93387-7e73-4d93-8010-d636c9db0b38: About # About
     092b894d-cbd3-4c3e-84ee-b7e9ca8ecf31: 'Drink Image' # Drink Image
     364ad546-9e21-465b-a339-3803c7d25e5c: Common # Common
     738ad5d8-5c81-4e1f-9ff9-03a1cca87e1f: Drinks # Drinks
+    781ae06f-d2eb-4d6b-96bb-4c9fdde485bc: Subtitle # Subtitle
     04175dd2-255d-4455-aa00-ff557ed530aa: Excerpt # Excerpt
     04332f78-79d5-4617-a33a-fb36de889557: testCraft # testCraft
     9896fa03-c44b-42f0-a504-3f5a4dc2cb62: 'Page Copy' # Page Copy
     82968cf1-a224-42f1-aec0-bd3c4899d9c4: Homepage # Homepage
     aa247e82-0ccd-46e0-bcb8-cb1a04133914: Introdcution # Introdcution
+    aa350295-a7d7-4d0e-b49e-f6b1f4617c33: 'Page Intro' # Page Intro
     ab19a003-5255-4404-89b7-5011f347ac13: News # News
     ae7bbe47-28b1-4557-ac73-cba9a8e34bb7: Drinks # Drinks
+    b9bbb094-e422-490c-8a1a-1cb472df67d0: About # About
     b842a9a8-8a06-4cac-b2cf-ca9e70537e37: Drinks # Drinks
     cae9ff85-31c9-4c58-87e6-a62c3a58f9dd: 'News Body' # News Body
     cfdea911-5766-47af-99c3-01846c5192dc: '840x200 Thumb' # 840x200 Thumb
